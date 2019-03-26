@@ -36,7 +36,7 @@
     </logger>
 	
 	<!-- 루트(글로벌) 로거 -->
-	<root level="debug">
+	<root level="info">
 		<appender-ref ref="consoleAppender" />
 	</root>
 
