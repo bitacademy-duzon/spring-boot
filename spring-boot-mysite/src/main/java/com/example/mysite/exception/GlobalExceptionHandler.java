@@ -28,7 +28,6 @@ public class GlobalExceptionHandler {
 		HttpServletRequest request, 
 		HttpServletResponse response,
 		NoHandlerFoundException ex) throws ServletException, IOException {
-		System.out.println("handleNoHandlerFoundException!!!!!!!!!");
 		request.
 		getRequestDispatcher("/WEB-INF/views/error/404.jsp").
 		forward(request, response);

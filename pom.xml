@@ -13,6 +13,14 @@
 		<version>2.1.3.RELEASE</version>
 	</parent>
 	
+	<dependencies>
+		<!-- hot swapping, enable live reload -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>
